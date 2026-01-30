@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wraply - AI 红包封面生成器
 
-## Getting Started
+## 项目简介
 
-First, run the development server:
+Wraply 是一款基于 AI 的微信红包封面生成工具。用户可以通过简单的操作，快速创建个性化的红包封面设计。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 核心功能
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **图像上传（可选）**：支持上传参考图片作为生成基础
+- **文本描述**：通过自然语言描述想要的红包封面效果
+- **风格选择**：提供多种预设风格（如：国潮、简约、卡通、节日主题等）
+- **参数调节**：支持自定义颜色、布局、元素等细节参数
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 使用场景
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 个人节日祝福
+- 企业品牌定制
+- 活动营销推广
+- 创意礼物分享
 
-## Learn More
+## 技术栈
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 前端：Next.js + React
+- AI 图像生成：集成主流图像生成模型
